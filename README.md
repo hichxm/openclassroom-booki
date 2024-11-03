@@ -1,17 +1,16 @@
-# Booki
+# Booki - Projet de Refonte Front-End
 
-Dans le cadre de ma formation de développeur web. J'ai eu comme projet de refaire le front-end uniquement à partir d'une maquette figma.
+Dans le cadre de ma formation en développement web, j'ai réalisé un projet visant à recréer l'interface front-end d'un site à partir d'une maquette Figma, avec une attention particulière au responsive design.
 
-## Demo
+## Démonstration
 
-[Accès à une demo](https://htmlpreview.github.io/?https://github.com/hichxm/openclassroom-booki/blob/master/index.html)
+[Voir la démo en ligne](https://htmlpreview.github.io/?https://github.com/hichxm/openclassroom-booki/blob/master/index.html)
 
 ## Maquette
 
-La maquette figma est à reproduire avec le responsive design
+La maquette Figma est conçue pour s'adapter aux différents supports et doit être reproduite avec un design réactif :
+- [Version Desktop](./public/layout-desktop.png)
+- [Version Tablette](./public/layout-tablet.png)
+- [Version Mobile](./public/layout-mobile.png)
 
-https://www.figma.com/design/r9YJyUkpVdrxzBBKGH7reY
-
-- [Desktop](./public/layout-desktop.png)
-- [Tablet](./public/layout-tablet.png)
-- [Mobile](./public/layout-mobile.png)
+[Accéder à la maquette sur Figma](https://www.figma.com/design/r9YJyUkpVdrxzBBKGH7reY)
