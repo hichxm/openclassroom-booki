@@ -276,6 +276,11 @@ body {
     border-radius: 15px 0 0 15px;
 }
 
+.header .search .input:focus {
+    outline: none;
+    border-width: 4px;
+}
+
 .header .search .input {
     padding-left: 15px;
     font-size: 18px;
