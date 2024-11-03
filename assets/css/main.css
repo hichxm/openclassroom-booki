@@ -278,7 +278,7 @@ body {
 
 .header .search .input:focus {
     outline: none;
-    border-width: 4px;
+    border-width: 3px;
 }
 
 .header .search .input {
@@ -288,6 +288,8 @@ body {
     border: 1px solid #F2F2F2;
     border-right: none;
     border-left: none;
+    transition: border;
+    transition-duration: 0.1s;
 }
 
 .header .search .btn:hover {
