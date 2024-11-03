@@ -4,7 +4,7 @@ Dans le cadre de ma formation en développement web, j'ai réalisé un projet vi
 
 ## Démonstration
 
-[Voir la démo en ligne](https://htmlpreview.github.io/?https://github.com/hichxm/openclassroom-booki/blob/master/index.html)
+[Voir la démo en ligne](https://hichxm.github.io/openclassroom-booki/)
 
 ## Maquette
 
