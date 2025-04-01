@@ -240,7 +240,7 @@ body {
     text-decoration: none;
 }
 
-.navbar .menu .item:not([active]):hover {
+.navbar .menu .item:not(.active):hover {
     text-decoration: underline;
     text-underline-offset: 5px;
 }
