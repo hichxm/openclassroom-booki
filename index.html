@@ -8,28 +8,28 @@
     <link rel="stylesheet" href="assets/css/main.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
           integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
-          crossorigin="anonymous" referrerpolicy="no-referrer"/>
+          crossorigin="anonymous" referrerpolicy="no-referrer" />
 </head>
 <body>
 <nav class="container navbar">
     <!-- Logo -->
     <div class="logo">
-        <img height="19" src="assets/img/booki-logo.svg" alt="Logo Booki"/>
+        <img height="19" src="assets/img/booki-logo.svg" alt="Logo Booki" />
     </div>
 
     <!-- Menu -->
     <div class="menu">
         <!-- Add "active" attribute to active element -->
-        <a class="item" href="#accommodations" active>Hébergements</a>
+        <a class="item active" href="#accommodations">Hébergements</a>
         <a class="item" href="#activity">Activités</a>
     </div>
 </nav>
 
 <main class="container main">
-    <header class="header">
+    <div class="header">
         <!-- Page header -->
         <div>
-            <span class="title">Trouvez votre hébergement pour des vacances de rêve</span>
+            <h1 class="title">Trouvez votre hébergement pour des vacances de rêve</h1>
             <span class="subtitle">En plein centre-ville ou en pleine nature</span>
         </div>
 
@@ -39,7 +39,7 @@
                 <label for="search" class="icon">
                     <i class="fas fa-location-dot"></i>
                 </label>
-                <input id="search" name="search" class="input" type="text" placeholder="Marseille, France"/>
+                <input id="search" name="search" class="input" type="text" placeholder="Marseille, France" />
                 <button type="submit" class="btn">
                     <span class="text">Rechercher</span>
                     <i class="icon-search fa fa-search"></i>
@@ -63,7 +63,7 @@
                     <i class="icon fa fa-heart"></i>
                     <span class="label">Familial</span>
                 </a>
-                <a href="#" class="filter" active>
+                <a href="#" class="filter active">
                     <i class="icon fa fa-fire"></i>
                     <span class="label">Nos pépites</span>
                 </a>
@@ -76,13 +76,13 @@
             </span>
             <p class="text">Plus de 500 logements sont disponibles dans cette ville</p>
         </div>
-    </header>
+    </div>
 
     <section class="accommodations">
-        <div class="all" id="accommodations">
-            <span class="title">Hébergements à Marseille</span>
+        <article class="all" id="accommodations">
+            <h2 class="title">Hébergements à Marseille</h2>
             <div class="items">
-                <!- Item -->
+                <!-- Item -->
                 <a href="#" class="item">
                     <img class="image" src="assets/img/accommodations/1.jpeg"
                          alt="Image de présentation de l'Hôtel du port">
@@ -182,10 +182,10 @@
             <div class="footer">
                 <a href="#">Afficher plus</a>
             </div>
-        </div>
-        <section class="featured">
+        </article>
+        <article class="featured">
             <div class="header">
-                <span class="title">Les plus populaires</span>
+                <h3 class="title">Les plus populaires</h3>
                 <i class="icon fa-solid fa-chart-line"></i>
             </div>
             <div class="items">
@@ -243,11 +243,11 @@
                     </div>
                 </a>
             </div>
-        </section>
+        </article>
     </section>
 
     <section class="activities">
-        <span class="title" id="activity">Activités à Marseille</span>
+        <h2 class="title" id="activity">Activités à Marseille</h2>
         <div class="items">
             <a href="#" class="item">
                 <img class="image" src="assets/img/activities/1.jpeg"
@@ -280,7 +280,7 @@
         </div>
     </section>
 
-    <footer class="footer">
+    <div class="footer">
         <div class="section">
             <span class="title">À propos</span>
             <div class="items">
@@ -303,7 +303,7 @@
                 <a class="item" href="#">Nous contacter</a>
             </div>
         </div>
-    </footer>
+    </div>
 </main>
 </body>
 </html>
