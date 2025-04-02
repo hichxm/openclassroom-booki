@@ -2,11 +2,9 @@
 
 Dans le cadre de ma formation en développement web, j'ai réalisé un projet visant à recréer l'interface front-end d'un site à partir d'une maquette Figma, avec une attention particulière au responsive design.
 
-![Aperçu du projet](./public/preview.png)
-
-## Démonstration
-
 [Voir la démo en ligne](https://hichxm.github.io/openclassroom-booki/)
+
+[![Aperçu du projet](./public/preview.png)](https://hichxm.github.io/openclassroom-booki/)
 
 ## Maquette
 
