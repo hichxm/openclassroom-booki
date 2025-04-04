@@ -8,38 +8,38 @@
     <link rel="stylesheet" href="assets/css/main.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
           integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
-          crossorigin="anonymous" referrerpolicy="no-referrer" />
+          crossorigin="anonymous" referrerpolicy="no-referrer"/>
 </head>
 <body>
-<nav class="container navbar">
+<header class="container navbar">
     <!-- Logo -->
     <div class="logo">
-        <img height="19" src="assets/img/booki-logo.svg" alt="Logo Booki" />
+        <img height="19" src="assets/img/booki-logo.svg" alt="Logo Booki"/>
     </div>
 
     <!-- Menu -->
-    <div class="menu">
+    <nav class="menu">
         <!-- Add "active" attribute to active element -->
-        <a class="item active" href="#accommodations">Hébergements</a>
-        <a class="item" href="#activity">Activités</a>
-    </div>
-</nav>
+        <a class="item no-text-decoration" href="#accommodations">Hébergements</a>
+        <a class="item no-text-decoration" href="#activity">Activités</a>
+    </nav>
+</header>
 
-<main class="container main">
-    <div class="header">
+<div class="container main">
+    <section class="head">
         <!-- Page header -->
         <div>
             <h1 class="title">Trouvez votre hébergement pour des vacances de rêve</h1>
-            <span class="subtitle">En plein centre-ville ou en pleine nature</span>
+            <p class="subtitle">En plein centre-ville ou en pleine nature</p>
         </div>
 
         <!-- Search -->
-        <form action="index.html" method="GET">
+        <form action="#" method="GET">
             <div class="search">
                 <label for="search" class="icon">
                     <i class="fas fa-location-dot"></i>
                 </label>
-                <input id="search" name="search" class="input" type="text" placeholder="Marseille, France" />
+                <input id="search" name="search" class="input" type="text" placeholder="Marseille, France"/>
                 <button type="submit" class="btn">
                     <span class="text">Rechercher</span>
                     <i class="icon-search fa fa-search"></i>
@@ -76,212 +76,244 @@
             </span>
             <p class="text">Plus de 500 logements sont disponibles dans cette ville</p>
         </div>
-    </div>
+    </section>
 
-    <section class="accommodations">
-        <article class="all" id="accommodations">
+    <main class="accommodations">
+        <section class="all" id="accommodations">
             <h2 class="title">Hébergements à Marseille</h2>
             <div class="items">
                 <!-- Item -->
                 <a href="#" class="item">
-                    <img class="image" src="assets/img/accommodations/1.jpeg"
-                         alt="Image de présentation de l'Hôtel du port">
-                    <div class="content">
-                        <span class="title">Hôtel du port</span>
-                        <span>Nuit à partir de 52<span class="text-bold">€</span></span>
-                        <div class="stars">
-                            <i class="star star-blue fa-solid fa-star"></i>
-                            <i class="star star-blue fa-solid fa-star"></i>
-                            <i class="star star-blue fa-solid fa-star"></i>
-                            <i class="star star-blue fa-solid fa-star"></i>
-                            <i class="star fa-solid fa-star"></i>
+                    <article>
+                        <img class="image" src="assets/img/accommodations/1.jpeg"
+                             alt="Image de présentation de l'Hôtel du port">
+                        <div class="content">
+                            <span class="title">Hôtel du port</span>
+                            <span>Nuit à partir de 52<span class="text-bold">€</span></span>
+                            <div class="stars">
+                                <i class="star star-blue fa-solid fa-star"></i>
+                                <i class="star star-blue fa-solid fa-star"></i>
+                                <i class="star star-blue fa-solid fa-star"></i>
+                                <i class="star star-blue fa-solid fa-star"></i>
+                                <i class="star fa-solid fa-star"></i>
+                            </div>
                         </div>
-                    </div>
+                    </article>
                 </a>
 
                 <a href="#" class="item">
-                    <img class="image" src="assets/img/accommodations/2.jpeg"
-                         alt="Image de présentation de l'Hôtel Chez Amina">
-                    <div class="content">
-                        <span class="title">Hôtel Chez Amina</span>
-                        <span>Nuit à partir de 96<span class="text-bold">€</span></span>
-                        <div class="stars">
-                            <i class="star star-blue fa-solid fa-star"></i>
-                            <i class="star star-blue fa-solid fa-star"></i>
-                            <i class="star star-blue fa-solid fa-star"></i>
-                            <i class="star star-blue fa-solid fa-star"></i>
-                            <i class="star fa-solid fa-star"></i>
+                    <article>
+
+                        <img class="image" src="assets/img/accommodations/2.jpeg"
+                             alt="Image de présentation de l'Hôtel Chez Amina">
+                        <div class="content">
+                            <span class="title">Hôtel Chez Amina</span>
+                            <span>Nuit à partir de 96<span class="text-bold">€</span></span>
+                            <div class="stars">
+                                <i class="star star-blue fa-solid fa-star"></i>
+                                <i class="star star-blue fa-solid fa-star"></i>
+                                <i class="star star-blue fa-solid fa-star"></i>
+                                <i class="star star-blue fa-solid fa-star"></i>
+                                <i class="star fa-solid fa-star"></i>
+                            </div>
                         </div>
-                    </div>
+                    </article>
                 </a>
 
                 <a href="#" class="item">
-                    <img class="image" src="assets/img/accommodations/3.jpeg"
-                         alt="Image de présentation de l'Hôtel Les mouettes">
-                    <div class="content">
-                        <span class="title">Hôtel Les mouettes</span>
-                        <span>Nuit à partir de 76<span class="text-bold">€</span></span>
-                        <div class="stars">
-                            <i class="star star-blue fa-solid fa-star"></i>
-                            <i class="star star-blue fa-solid fa-star"></i>
-                            <i class="star star-blue fa-solid fa-star"></i>
-                            <i class="star star-blue fa-solid fa-star"></i>
-                            <i class="star fa-solid fa-star"></i>
+                    <article>
+
+                        <img class="image" src="assets/img/accommodations/3.jpeg"
+                             alt="Image de présentation de l'Hôtel Les mouettes">
+                        <div class="content">
+                            <span class="title">Hôtel Les mouettes</span>
+                            <span>Nuit à partir de 76<span class="text-bold">€</span></span>
+                            <div class="stars">
+                                <i class="star star-blue fa-solid fa-star"></i>
+                                <i class="star star-blue fa-solid fa-star"></i>
+                                <i class="star star-blue fa-solid fa-star"></i>
+                                <i class="star star-blue fa-solid fa-star"></i>
+                                <i class="star fa-solid fa-star"></i>
+                            </div>
                         </div>
-                    </div>
+                    </article>
                 </a>
 
                 <a href="#" class="item">
-                    <img class="image" src="assets/img/accommodations/4.jpeg"
-                         alt="Image de présentation de l'Hôtel de la mer">
-                    <div class="content">
-                        <span class="title">Hôtel de la mer</span>
-                        <span>Nuit à partir de 46<span class="text-bold">€</span></span>
-                        <div class="stars">
-                            <i class="star star-blue fa-solid fa-star"></i>
-                            <i class="star star-blue fa-solid fa-star"></i>
-                            <i class="star star-blue fa-solid fa-star"></i>
-                            <i class="star star-blue fa-solid fa-star"></i>
-                            <i class="star fa-solid fa-star"></i>
+                    <article>
+
+                        <img class="image" src="assets/img/accommodations/4.jpeg"
+                             alt="Image de présentation de l'Hôtel de la mer">
+                        <div class="content">
+                            <span class="title">Hôtel de la mer</span>
+                            <span>Nuit à partir de 46<span class="text-bold">€</span></span>
+                            <div class="stars">
+                                <i class="star star-blue fa-solid fa-star"></i>
+                                <i class="star star-blue fa-solid fa-star"></i>
+                                <i class="star star-blue fa-solid fa-star"></i>
+                                <i class="star star-blue fa-solid fa-star"></i>
+                                <i class="star fa-solid fa-star"></i>
+                            </div>
                         </div>
-                    </div>
+                    </article>
                 </a>
 
                 <a href="#" class="item">
-                    <img class="image" src="assets/img/accommodations/5.jpeg"
-                         alt="Image de présentation de l'Auberge La Canebière">
-                    <div class="content">
-                        <span class="title">Auberge La Canebière</span>
-                        <span>Nuit à partir de 25<span class="text-bold">€</span></span>
-                        <div class="stars">
-                            <i class="star star-blue fa-solid fa-star"></i>
-                            <i class="star star-blue fa-solid fa-star"></i>
-                            <i class="star star-blue fa-solid fa-star"></i>
-                            <i class="star star-blue fa-solid fa-star"></i>
-                            <i class="star fa-solid fa-star"></i>
+                    <article>
+
+                        <img class="image" src="assets/img/accommodations/5.jpeg"
+                             alt="Image de présentation de l'Auberge La Canebière">
+                        <div class="content">
+                            <span class="title">Auberge La Canebière</span>
+                            <span>Nuit à partir de 25<span class="text-bold">€</span></span>
+                            <div class="stars">
+                                <i class="star star-blue fa-solid fa-star"></i>
+                                <i class="star star-blue fa-solid fa-star"></i>
+                                <i class="star star-blue fa-solid fa-star"></i>
+                                <i class="star star-blue fa-solid fa-star"></i>
+                                <i class="star fa-solid fa-star"></i>
+                            </div>
                         </div>
-                    </div>
+                    </article>
                 </a>
 
                 <a href="#" class="item">
-                    <img class="image" src="assets/img/accommodations/6.jpeg"
-                         alt="Image de présentation de l'Auberge Le Panier">
-                    <div class="content">
-                        <span class="title">Auberge Le Panier</span>
-                        <span>Nuit à partir de 23<span class="text-bold">€</span></span>
-                        <div class="stars">
-                            <i class="star star-blue fa-solid fa-star"></i>
-                            <i class="star star-blue fa-solid fa-star"></i>
-                            <i class="star star-blue fa-solid fa-star"></i>
-                            <i class="star star-blue fa-solid fa-star"></i>
-                            <i class="star fa-solid fa-star"></i>
+                    <article>
+
+                        <img class="image" src="assets/img/accommodations/6.jpeg"
+                             alt="Image de présentation de l'Auberge Le Panier">
+                        <div class="content">
+                            <span class="title">Auberge Le Panier</span>
+                            <span>Nuit à partir de 23<span class="text-bold">€</span></span>
+                            <div class="stars">
+                                <i class="star star-blue fa-solid fa-star"></i>
+                                <i class="star star-blue fa-solid fa-star"></i>
+                                <i class="star star-blue fa-solid fa-star"></i>
+                                <i class="star star-blue fa-solid fa-star"></i>
+                                <i class="star fa-solid fa-star"></i>
+                            </div>
                         </div>
-                    </div>
+                    </article>
                 </a>
             </div>
-            <div class="footer">
+            <div class="accommodations-footer">
                 <a href="#">Afficher plus</a>
             </div>
-        </article>
-        <article class="featured">
-            <div class="header">
+        </section>
+
+        <section class="featured">
+            <div class="head">
                 <h3 class="title">Les plus populaires</h3>
                 <i class="icon fa-solid fa-chart-line"></i>
             </div>
             <div class="items">
-                <a href="#" class="item">
-                    <img class="image" src="assets/img/featured/1.jpeg"
-                         alt="Image de présentation de l'Hôtel Le soleil du matin">
-                    <div class="content">
-                        <div class="header">
-                            <span class="title">Hôtel Le soleil du matin</span>
-                            <span>Nuit à partir de 25<span class="text-bold">€</span></span>
+                <a href="#" class="no-text-decoration w-full">
+                    <article class="item">
+                        <img class="image" src="assets/img/featured/1.jpeg"
+                             alt="Image de présentation de l'Hôtel Le soleil du matin">
+                        <div class="content">
+                            <div class="head">
+                                <span class="title">Hôtel Le soleil du matin</span>
+                                <span>Nuit à partir de 25<span class="text-bold">€</span></span>
+                            </div>
+                            <div class="stars">
+                                <i class="star star-blue fa-solid fa-star"></i>
+                                <i class="star star-blue fa-solid fa-star"></i>
+                                <i class="star star-blue fa-solid fa-star"></i>
+                                <i class="star star-blue fa-solid fa-star"></i>
+                                <i class="star fa-solid fa-star"></i>
+                            </div>
                         </div>
-                        <div class="stars">
-                            <i class="star star-blue fa-solid fa-star"></i>
-                            <i class="star star-blue fa-solid fa-star"></i>
-                            <i class="star star-blue fa-solid fa-star"></i>
-                            <i class="star star-blue fa-solid fa-star"></i>
-                            <i class="star fa-solid fa-star"></i>
-                        </div>
-                    </div>
+                    </article>
                 </a>
 
-                <a href="#" class="item">
-                    <img class="image" src="assets/img/featured/2.jpeg"
-                         alt="Image de présentation de la Chambres d’hôtes Au cœur de l’eau">
-                    <div class="content">
-                        <div class="header">
-                            <span class="title">Chambres d’hôtes Au cœur de l’eau</span>
-                            <span>Nuit à partir de 71<span class="text-bold">€</span></span>
+                <a href="#" class="no-text-decoration w-full">
+                    <article class="item">
+                        <img class="image" src="assets/img/featured/2.jpeg"
+                             alt="Image de présentation de la Chambres d’hôtes Au cœur de l’eau">
+                        <div class="content">
+                            <div class="head">
+                                <span class="title">Chambres d’hôtes Au cœur de l’eau</span>
+                                <span>Nuit à partir de 71<span class="text-bold">€</span></span>
+                            </div>
+                            <div class="stars">
+                                <i class="star star-blue fa-solid fa-star"></i>
+                                <i class="star star-blue fa-solid fa-star"></i>
+                                <i class="star star-blue fa-solid fa-star"></i>
+                                <i class="star star-blue fa-solid fa-star"></i>
+                                <i class="star fa-solid fa-star"></i>
+                            </div>
                         </div>
-                        <div class="stars">
-                            <i class="star star-blue fa-solid fa-star"></i>
-                            <i class="star star-blue fa-solid fa-star"></i>
-                            <i class="star star-blue fa-solid fa-star"></i>
-                            <i class="star star-blue fa-solid fa-star"></i>
-                            <i class="star fa-solid fa-star"></i>
-                        </div>
-                    </div>
+                    </article>
                 </a>
 
-                <a href="#" class="item">
-                    <img class="image" src="assets/img/featured/3.jpeg"
-                         alt="Image de présentation de l'Hôtel Bleu et Blanc">
-                    <div class="content">
-                        <div class="header">
-                            <span class="title">Hôtel Bleu et Blanc</span>
-                            <span>Nuit à partir de 25<span class="text-bold">€</span></span>
+                <a href="#" class="no-text-decoration w-full">
+                    <article class="item">
+                        <img class="image" src="assets/img/featured/3.jpeg"
+                             alt="Image de présentation de l'Hôtel Bleu et Blanc">
+                        <div class="content">
+                            <div class="head">
+                                <span class="title">Hôtel Bleu et Blanc</span>
+                                <span>Nuit à partir de 25<span class="text-bold">€</span></span>
+                            </div>
+                            <div class="stars">
+                                <i class="star star-blue fa-solid fa-star"></i>
+                                <i class="star star-blue fa-solid fa-star"></i>
+                                <i class="star star-blue fa-solid fa-star"></i>
+                                <i class="star star-blue fa-solid fa-star"></i>
+                                <i class="star fa-solid fa-star"></i>
+                            </div>
                         </div>
-                        <div class="stars">
-                            <i class="star star-blue fa-solid fa-star"></i>
-                            <i class="star star-blue fa-solid fa-star"></i>
-                            <i class="star star-blue fa-solid fa-star"></i>
-                            <i class="star star-blue fa-solid fa-star"></i>
-                            <i class="star fa-solid fa-star"></i>
-                        </div>
-                    </div>
+                    </article>
                 </a>
             </div>
-        </article>
-    </section>
+        </section>
+    </main>
 
     <section class="activities">
         <h2 class="title" id="activity">Activités à Marseille</h2>
         <div class="items">
-            <a href="#" class="item">
-                <img class="image" src="assets/img/activities/1.jpeg"
-                     alt="Image présentation catégorie de l'activité du Vieux-Port">
-                <div class="content">
-                    <span>Vieux-Port</span>
-                </div>
+            <a href="#" class="no-text-decoration w-full">
+                <article class="item">
+                    <img class="image" src="assets/img/activities/1.jpeg"
+                         alt="Image présentation catégorie de l'activité du Vieux-Port">
+                    <div class="content">
+                        <span>Vieux-Port</span>
+                    </div>
+                </article>
             </a>
-            <a href="#" class="item">
-                <img class="image" src="assets/img/activities/2.jpeg"
-                     alt="Image présentation catégorie de l'activité du Fort de Pomègues">
-                <div class="content">
-                    <span>Fort de Pomègues</span>
-                </div>
+            <a href="#" class="no-text-decoration w-full">
+                <article class="item">
+                    <img class="image" src="assets/img/activities/2.jpeg"
+                         alt="Image présentation catégorie de l'activité du Fort de Pomègues">
+                    <div class="content">
+                        <span>Fort de Pomègues</span>
+                    </div>
+                </article>
             </a>
-            <a href="#" class="item">
-                <img class="image" src="assets/img/activities/3.jpeg"
-                     alt="Image présentation catégorie de l'activité du Parc national des Calanques">
-                <div class="content">
-                    <span>Parc national des Calanques</span>
-                </div>
+            <a href="#" class="no-text-decoration w-full">
+                <article class="item">
+                    <img class="image" src="assets/img/activities/3.jpeg"
+                         alt="Image présentation catégorie de l'activité du Parc national des Calanques">
+                    <div class="content">
+                        <span>Parc national des Calanques</span>
+                    </div>
+                </article>
             </a>
-            <a href="#" class="item">
-                <img class="image" src="assets/img/activities/4.jpeg"
-                     alt="Image présentation catégorie de l'activité de Notre-Dame-de-la-Garde">
-                <div class="content">
-                    <span>Notre-Dame-de-la-Garde</span>
-                </div>
+            <a href="#" class="no-text-decoration w-full">
+                <article class="item">
+                    <img class="image" src="assets/img/activities/4.jpeg"
+                         alt="Image présentation catégorie de l'activité de Notre-Dame-de-la-Garde">
+                    <div class="content">
+                        <span>Notre-Dame-de-la-Garde</span>
+                    </div>
+                </article>
             </a>
         </div>
     </section>
 
-    <div class="footer">
-        <div class="section">
+    <footer class="footer">
+        <div class="link-column">
             <span class="title">À propos</span>
             <div class="items">
                 <a class="item" href="#">Fonctionnement du site</a>
@@ -289,21 +321,21 @@
                 <a class="item" href="#">Données et confidentialité</a>
             </div>
         </div>
-        <div class="section">
+        <div class="link-column">
             <span class="title">Nos hébergements</span>
             <div class="items">
                 <a class="item" href="#">Charte qualité</a>
                 <a class="item" href="#">Proposer votre hôtel</a>
             </div>
         </div>
-        <div class="section">
+        <div class="link-column">
             <span class="title">Assistance</span>
             <div class="items">
                 <a class="item" href="#">Centre d'aide</a>
                 <a class="item" href="#">Nous contacter</a>
             </div>
         </div>
-    </div>
-</main>
+    </footer>
+</div>
 </body>
 </html>
