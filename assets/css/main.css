@@ -609,6 +609,11 @@ body {
     font-weight: 700;
 }
 
+.activities .items .item .content .content-title {
+    margin: 0;
+    font-size: 16px;
+}
+
 .footer {
     background-color: #F2F2F2;
     display: flex;
